@@ -3,4 +3,33 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  font-size: 12px;
+}
+
+.nav-link {
+  color: whitesmoke;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.recipe-card h3 {
+  color: white;
+}
+
+.card-footer {
+  color: white;
+}
+
+.view-recipe-link {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  text-align: right;
+  font-size: smaller;
 }

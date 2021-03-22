@@ -41,8 +41,9 @@ export default {
 @import url("https://cdn.jsdelivr.net/npm/animate.css@3.5.1");
 
 @import url('./assets/css/colours.css');
-@import url('./assets/css/layout.css');
 @import url('./assets/css/typography.css');
 
+@import url('./assets/css/layout.css');
+@import url('./assets/css/about.css');
 
 </style>

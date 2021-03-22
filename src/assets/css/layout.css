@@ -1,7 +1,6 @@
 body {
   margin-top: -60px;
   padding: 0;
-  font-size: 12px;
 }
 
 #app {
@@ -12,7 +11,6 @@ body {
 }
 
 #header {
-  background-color: var(--avocado);
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -29,9 +27,6 @@ nav {
   display: block;
   padding: 0.5em;
   margin: 0.5em;
-  color: whitesmoke;
-  font-weight: bolder;
-  text-decoration: none;
 }
 
 .logo-img {
@@ -97,24 +92,18 @@ nav {
 }
 
 .recipe-card h3 {
-  background-color: var(--tomato);
   padding: 1em;
   margin-top: 0;
-  color: white;
 }
 
 .card-footer {
-  background-color: var(--tomato);
   padding: 1em;
   margin-top: 0;
-  color: white;
 }
 
 .view-recipe-link {
   padding: 1em;
   margin-top: 0;
-  color: white;
-  text-decoration: none;
 }
 
 .view-recipe-link i {
@@ -144,7 +133,6 @@ nav {
 
 #carbonara-post {
   background-image: url("https://i.postimg.cc/y8gSWxQb/carbonara.jpg");
-
   height: 100vh;
 }
 
@@ -154,20 +142,14 @@ nav {
 }
 
 footer {
-  background-color: var(--avocado);
-  color: whitesmoke;
   padding: 1em;
-  text-align: right;
-  font-size: smaller;
   margin-top: 1em;
 }
 
 .hero-image {
   background-image: linear-gradient(rgba(68, 67, 67, 0.5), rgba(7, 3, 3, 0.5)),
     url("https://i.postimg.cc/NMF8tHCC/food-dude-heo-1.jpg");
-
   height: 20vh;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,15 +157,12 @@ footer {
 }
 
 .hero-text {
-  text-align: center;
   display: flex;
   flex-direction: column;
-  color: var(--yellowPepper);
 }
 
 .latest-recipes {
   text-align: center;
-  color: var(--tomato);
 }
 
 .post {
@@ -195,7 +174,6 @@ footer {
 }
 
 .post-header h1 {
-  color: var(--yellowPepper);
   padding-top: 1em;
   margin-left: 10vw;
 }
@@ -205,12 +183,9 @@ footer {
 }
 
 .ingredients {
-  background-color: white;
-  opacity: 80%;
   margin: 1em;
   padding: 1em;
   border-radius: 15px;
-
   flex: 1;
 }
 
@@ -227,8 +202,6 @@ footer {
 }
 
 .method {
-  background-color: white;
-  opacity: 80%;
   margin: 1em;
   padding: 1em;
   border-radius: 15px;
@@ -236,7 +209,6 @@ footer {
 
 .post-summary {
   display: flex;
-  border-bottom: 1px solid lightgray;
 }
 
 .thumb-img {
@@ -261,13 +233,11 @@ footer {
 }
 
 .recipe-card-summary {
-  border-bottom: 1px solid var(--avocado);
   margin: 1em;
   padding: 1em;
 }
 
 .recipe-card-summary h3 {
-  color: var(--tomato);
   padding: 1em;
 }
 
@@ -293,29 +263,4 @@ footer {
 
 .recipe-card-summary-link i {
   margin-left: 10px;
-}
-
-.about-content {
-  display: flex;
-  margin: 1em;
-}
-
-.about-content-wrapper h2 {
-  margin-left: 3em;
-}
-
-.about-content-wrapper h3 {
-  margin-left: 3em;
-}
-
-.about-content img {
-  max-width: 50px;
-  max-height: 50px;
-  flex: 1;
-  display: block;
-}
-
-.about-content p {
-  flex: 1;
-  margin: 1em;
 }

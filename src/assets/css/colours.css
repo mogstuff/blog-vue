@@ -4,3 +4,54 @@
   --aquaBlue: #31a9b8;
   --tomato: #cf3721;
 }
+
+#header {
+  background-color: var(--avocado);
+}
+
+.hero-text {
+  color: var(--yellowPepper);
+}
+
+.recipe-card h3 {
+  background-color: var(--tomato);
+}
+
+.card-footer {
+  background-color: var(--tomato);
+}
+
+.latest-recipes {
+  color: var(--tomato);
+}
+
+.post-header h1 {
+  color: var(--yellowPepper);
+}
+
+.ingredients {
+  background-color: white;
+  opacity: 80%;
+}
+
+.method {
+  background-color: white;
+  opacity: 80%;
+}
+
+.post-summary {
+  border-bottom: 1px solid lightgray;
+}
+
+.recipe-card-summary {
+  border-bottom: 1px solid var(--avocado);
+}
+
+.recipe-card-summary h3 {
+  color: var(--tomato);
+}
+
+footer {
+  background-color: var(--avocado);
+  color: whitesmoke;
+}
