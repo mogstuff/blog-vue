@@ -1,24 +1,13 @@
-# blog-vue
+# The Food Dude Blog
 
-## Project setup
-```
-npm install
-```
+This is a Personal Project to Demo use of Vue, Responsive Web Design and Cypress.io Testing
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Cypress Test Run Dashboard
 
-### Compiles and minifies for production
-```
-npm run build
-```
+This has been made public for this project and can be found here: [Cypress.io Dashboard](https://dashboard.cypress.io/projects/3jfwtm/runs?branches=%5B%5D&committers=%5B%5D&flaky=%5B%5D&page=1&status=%5B%5D&tags=%5B%5D&timeRange=%7B%22startDate%22%3A%221970-01-01%22%2C%22endDate%22%3A%222038-01-19%22%7D)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Netlify
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The project has been deployed to Netlify and can be viewed here:
+
+[https://angry-bohr-b5e9ec.netlify.app/#/](https://angry-bohr-b5e9ec.netlify.app/#/)
