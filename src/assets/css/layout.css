@@ -69,3 +69,49 @@ footer {
   padding: 1em;
   margin: 1em;
 }
+
+.recipe-card h3 {
+  background-color: var(--tomato);
+  padding: 1em;
+  margin-top: 0;
+  color: white;
+}
+
+.card-footer {
+  background-color: var(--tomato);
+  padding: 1em;
+  margin-top: 0;
+  color: white;
+}
+
+.view-recipe-link {
+  padding: 1em;
+  margin-top: 0;
+  color: white;
+  text-decoration: none;
+}
+
+.view-recipe-link i {
+  margin-left: 10px;
+}
+
+.card-image {
+  max-width: 100%;
+  max-height: auto;
+  padding: 0;
+  margin-top: -15px;
+}
+
+.recipe-card {
+  display: grid;
+  height: auto;
+}
+
+.recipe-card p {
+  padding: 1em;
+  margin: 1em;
+}
+
+.card-footer {
+  padding: 1em;
+}
