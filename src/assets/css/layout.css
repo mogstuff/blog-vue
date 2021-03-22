@@ -8,7 +8,7 @@ body {
   margin-top: 60px;
   height: 100vh;
   display: grid;
-  grid-template-rows: 1fr 20fr 1fr;
+  grid-template-rows: 3fr 20fr 1fr;
 }
 
 #header {
@@ -41,22 +41,47 @@ nav {
 }
 
 .content-wrapper {
-  margin: 1em;
-  padding: 1em;
-}
-
-footer {
-  background-color: var(--avocado);
-  color: whitesmoke;
-  padding: 1em;
-  text-align: right;
-  font-size: smaller;
+  margin-top: -18px;
 }
 
 #recipe-cards {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+}
+
+@media (max-width: 615px) {
+  #header {
+    height: 10vh;
+  }
+
+  #recipe-cards {
+    flex-direction: column;
+  }
+
+  .recipe-card {
+    border: 1px solid var(--tomato);
+    width: auto !important;
+    border-radius: 5px;
+    margin: 1em;
+  }
+
+  .ingredients-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .method {
+    margin-top: 50px !important;
+  }
+
+  footer {
+    margin-top: 60vh !important;
+  }
+
+  .recipe-summary-text {
+    flex-direction: column;
+  }
 }
 
 .recipe-card {
@@ -68,6 +93,7 @@ footer {
 #home-text {
   padding: 1em;
   margin: 1em;
+  line-height: 1.4rem;
 }
 
 .recipe-card h3 {
@@ -114,4 +140,182 @@ footer {
 
 .card-footer {
   padding: 1em;
+}
+
+#carbonara-post {
+  background-image: url("https://i.postimg.cc/y8gSWxQb/carbonara.jpg");
+
+  height: 100vh;
+}
+
+.pan-icon {
+  max-width: 2em;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: var(--avocado);
+  color: whitesmoke;
+  padding: 1em;
+  text-align: right;
+  font-size: smaller;
+  margin-top: 1em;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(68, 67, 67, 0.5), rgba(7, 3, 3, 0.5)),
+    url("https://i.postimg.cc/NMF8tHCC/food-dude-heo-1.jpg");
+
+  height: 20vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: var(--yellowPepper);
+}
+
+.latest-recipes {
+  text-align: center;
+  color: var(--tomato);
+}
+
+.post {
+  padding: 0;
+  margin: 0;
+  height: 80vh;
+  display: grid;
+  grid-template-rows: 1fr 3fr 6fr;
+}
+
+.post-header h1 {
+  color: var(--yellowPepper);
+  padding-top: 1em;
+  margin-left: 10vw;
+}
+
+.ingredients-wrapper {
+  display: flex;
+}
+
+.ingredients {
+  background-color: white;
+  opacity: 80%;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 15px;
+
+  flex: 1;
+}
+
+.food-img {
+  flex: 1;
+}
+
+.food-img img {
+  max-width: 80%;
+  max-height: auto;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 15px;
+}
+
+.method {
+  background-color: white;
+  opacity: 80%;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 15px;
+}
+
+.post-summary {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+}
+
+.thumb-img {
+  flex: 1;
+  padding: 1em;
+  max-width: 200px;
+  height: auto;
+}
+
+.thumb-img img {
+  max-width: 200px;
+  height: auto;
+}
+
+.recipe-summary-text {
+  padding: 1em;
+  display: flex;
+}
+
+.recipe-summary-text p {
+  padding: 2em;
+}
+
+.recipe-card-summary {
+  border-bottom: 1px solid var(--avocado);
+  margin: 1em;
+  padding: 1em;
+}
+
+.recipe-card-summary h3 {
+  color: var(--tomato);
+  padding: 1em;
+}
+
+#posts-list h1 {
+  padding: 1em;
+}
+
+.post-list-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.recipe-summary-footer {
+  text-align: right;
+}
+
+.recipe-card-summary-link {
+  margin-right: 10px;
+  padding: 1em;
+  display: block;
+  text-decoration: none;
+}
+
+.recipe-card-summary-link i {
+  margin-left: 10px;
+}
+
+.about-content {
+  display: flex;
+  margin: 1em;
+}
+
+.about-content-wrapper h2 {
+  margin-left: 3em;
+}
+
+.about-content-wrapper h3 {
+  margin-left: 3em;
+}
+
+.about-content img {
+  max-width: 50px;
+  max-height: 50px;
+  flex: 1;
+  display: block;
+}
+
+.about-content p {
+  flex: 1;
+  margin: 1em;
 }
